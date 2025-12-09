@@ -1,0 +1,112 @@
+資訊管理與商業分析作品集 (Business Analytics Portfolio)
+
+歡迎來到我的repo！本作品集展示了我如何運用 Python 全端技術 與 資料科學方法，解決實際的商業問題。
+作為一名具備 C#/.NET 與 Python 能力的軟體工程師，我致力於連結「系統開發」與「數據決策」之間的橋樑。
+
+📂 專案導覽 (Project Showcase)
+
+本倉庫包含三個針對不同商業場景的實作專案，皆採用 Streamlit 建構互動式儀表板，模擬真實的決策輔助系統。
+
+序號
+
+專案名稱
+
+核心議題
+
+技術關鍵字
+
+程式碼路徑
+
+01
+
+電商競品價格追蹤儀表板
+
+市場競爭策略
+
+Web Crawler, SQLite, Automation
+
+進入專案
+
+02
+
+社群輿情與情感分析系統
+
+顧客之聲 (VOC)
+
+NLP (SnowNLP), Jieba, WordCloud
+
+進入專案
+
+03
+
+RFM 顧客價值分群模型
+
+精準行銷
+
+RFM Model, Data Mining, Marketing Strategy
+
+進入專案
+
+🚀 技術棧 (Tech Stack)
+
+語言 (Languages): Python 3.11, SQL
+
+資料處理 (Data Engineering): Pandas, NumPy, SQLite
+
+自然語言處理 (NLP): Jieba (斷詞), SnowNLP (情感運算)
+
+視覺化與前端 (Visualization & UI): Streamlit, Matplotlib, Seaborn, WordCloud
+
+版本控制 (Version Control): Git, GitHub
+
+📝 專案詳細介紹
+
+1. 🏆 RFM 顧客價值分群模型
+
+誰是我們的高價值客戶？誰即將流失？
+
+對應課程：商業分析實務、資料庫系統
+
+功能亮點：
+
+自動生成模擬交易數據，並清洗轉換為 R/F/M 指標。
+
+透過五分位數法 (Quintile) 進行科學化評分。
+
+針對「VIP」、「瞌睡客戶」自動生成差異化行銷策略建議。
+
+2. 🗣️ 社群輿情與情感分析系統
+
+消費者在網路上怎麼討論我們的產品？
+
+對應課程：社群媒體分析、服務品質管理
+
+功能亮點：
+
+整合 Jieba 中文斷詞與 SnowNLP 情感分析模型。
+
+視覺化「文字雲」快速識別產品痛點（如：服務態度、出餐速度）。
+
+提供量化的情感分數指標 (KPI)。
+
+3. 📈 電商競品價格追蹤儀表板
+
+競爭對手降價了嗎？我們該跟進嗎？
+
+對應課程：電子商務、管理資訊系統
+
+功能亮點：
+
+模擬爬蟲資料流與資料庫 (SQLite) 寫入機制。
+
+自動計算價差並發出商業警示。
+
+展現全端工程師對於 Data Pipeline 的掌握度。
+
+📬 聯絡資訊
+
+如果您對我的作品有興趣，歡迎透過以下方式聯繫：
+
+Email: eddie.tc.lee@gmail.com
+
+GitHub: https://github.com/EddieTcLee

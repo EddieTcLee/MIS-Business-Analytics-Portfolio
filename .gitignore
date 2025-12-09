@@ -1,0 +1,18 @@
+忽略 Python 編譯檔
+
+pycache/
+*.pyc
+
+忽略本地資料庫 (因為這會一直變動，且包含模擬數據)
+
+*.db
+ecommerce_prices.db
+
+忽略虛擬環境 (如果有)
+
+.venv/
+env/
+
+忽略 Mac 系統檔 (如果您是用 Mac)
+
+.DS_Store
