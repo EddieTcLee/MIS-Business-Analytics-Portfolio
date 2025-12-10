@@ -230,4 +230,4 @@ st.info(insight)
 
 # 頁尾
 st.markdown("---")
-st.caption("開發者: [您的名字] | 技術棧: Python, Jieba (NLP), SnowNLP, Streamlit | 用途: 中山大學資管碩專班備審作品集展示")
+st.caption("開發者: [EddieTcLee] | 技術棧: Python, Jieba (NLP), SnowNLP, Streamlit")

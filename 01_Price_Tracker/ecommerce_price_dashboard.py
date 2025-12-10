@@ -191,4 +191,4 @@ with st.expander("查看原始數據資料表"):
 
 # 7. 頁尾說明
 st.markdown("---")
-st.caption("開發者: [EddieTcLee] | 技術棧: Python, Streamlit, SQLite | 用途: 中山大學資管碩專班備審作品集展示")
+st.caption("開發者: [EddieTcLee] | 技術棧: Python, Streamlit, SQLite")

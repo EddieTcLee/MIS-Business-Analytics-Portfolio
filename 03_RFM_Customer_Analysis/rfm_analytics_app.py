@@ -219,4 +219,4 @@ st.info(strategy_text)
 with st.expander("查看詳細客戶名單"):
     st.dataframe(rfm_df.sort_values(by='RFM_Score', ascending=False), use_container_width=True)
 
-st.caption("開發者: [EddieLee] | 技術棧: Python, Pandas, RFM Analysis, Streamlit")
+st.caption("開發者: [EddieTcLee] | 技術棧: Python, Pandas, RFM Analysis, Streamlit")
