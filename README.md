@@ -25,7 +25,7 @@
 
 Web Crawler, SQLite, Automation
 
-進入專案
+[🚀 線上試玩 (Live Demo)](https://eddie-price-tracker.streamlit.app/) | [📂 查看程式碼](./01_Price_Tracker)
 
 02
 
@@ -35,7 +35,7 @@ Web Crawler, SQLite, Automation
 
 NLP (SnowNLP), Jieba, WordCloud
 
-進入專案
+[🚀 線上試玩 (Live Demo)](https://eddie-sentiment-analysis.streamlit.app/) | [📂 查看程式碼](./02_Sentiment_Analysis)
 
 03
 
@@ -45,7 +45,7 @@ RFM 顧客價值分群模型
 
 RFM Model, Data Mining, Marketing Strategy
 
-進入專案
+[🚀 線上試玩 (Live Demo)](https://eddie-rfm-analysis.streamlit.app/) | [📂 查看程式碼](./03_RFM_Customer_Analysis)
 
 🚀 技術棧 (Tech Stack)
 
