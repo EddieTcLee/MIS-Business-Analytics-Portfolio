@@ -17,15 +17,13 @@
 
 程式碼路徑
 
-01
-
-電商競品價格追蹤儀表板
+01 電商競品價格追蹤儀表板
 
 市場競爭策略
 
 Web Crawler, SQLite, Automation
 
-進入專案
+[🚀 線上試玩 (Live Demo)](https://eddie-price-tracker.streamlit.app/) | [📂 查看程式碼](./01_Price_Tracker)
 
 02
 
@@ -35,7 +33,7 @@ Web Crawler, SQLite, Automation
 
 NLP (SnowNLP), Jieba, WordCloud
 
-進入專案
+[🚀 線上試玩 (Live Demo)](https://eddie-sentiment-analysis.streamlit.app/) | [📂 查看程式碼](./02_Sentiment_Analysis)
 
 03
 
@@ -45,7 +43,7 @@ RFM 顧客價值分群模型
 
 RFM Model, Data Mining, Marketing Strategy
 
-進入專案
+[🚀 線上試玩 (Live Demo)](https://eddie-rfm-analysis.streamlit.app/) | [📂 查看程式碼](./03_RFM_Customer_Analysis)
 
 🚀 技術棧 (Tech Stack)
 
@@ -60,20 +58,20 @@ RFM Model, Data Mining, Marketing Strategy
 版本控制 (Version Control): Git, GitHub
 
 📝 專案詳細介紹
+1.  📈 電商競品價格追蹤儀表板
 
-1. 🏆 RFM 顧客價值分群模型
+競爭對手降價了嗎？我們該跟進嗎？
 
-誰是我們的高價值客戶？誰即將流失？
-
-對應課程：商業分析實務、資料庫系統
+對應課程：電子商務、管理資訊系統
 
 功能亮點：
 
-自動生成模擬交易數據，並清洗轉換為 R/F/M 指標。
+模擬爬蟲資料流與資料庫 (SQLite) 寫入機制。
 
-透過五分位數法 (Quintile) 進行科學化評分。
+自動計算價差並發出商業警示。
 
-針對「VIP」、「瞌睡客戶」自動生成差異化行銷策略建議。
+展現全端工程師對於 Data Pipeline 的掌握度。
+
 
 2. 🗣️ 社群輿情與情感分析系統
 
@@ -89,19 +87,20 @@ RFM Model, Data Mining, Marketing Strategy
 
 提供量化的情感分數指標 (KPI)。
 
-3. 📈 電商競品價格追蹤儀表板
+3. 🏆 RFM 顧客價值分群模型
 
-競爭對手降價了嗎？我們該跟進嗎？
+誰是我們的高價值客戶？誰即將流失？
 
-對應課程：電子商務、管理資訊系統
+對應課程：商業分析實務、資料庫系統
 
 功能亮點：
 
-模擬爬蟲資料流與資料庫 (SQLite) 寫入機制。
+自動生成模擬交易數據，並清洗轉換為 R/F/M 指標。
 
-自動計算價差並發出商業警示。
+透過五分位數法 (Quintile) 進行科學化評分。
 
-展現全端工程師對於 Data Pipeline 的掌握度。
+針對「VIP」、「瞌睡客戶」自動生成差異化行銷策略建議。
+
 
 📬 聯絡資訊
 
