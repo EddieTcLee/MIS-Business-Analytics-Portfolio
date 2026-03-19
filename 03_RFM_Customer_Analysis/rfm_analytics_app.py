@@ -11,6 +11,7 @@ import os
 # [安裝與執行教學]
 # 1. 安裝套件: pip install streamlit pandas matplotlib seaborn
 # 2. 執行程式: streamlit run rfm_analytics_app.py
+# python -m streamlit run rfm_analytics_app.py
 # ---------------------------------------------------------
 
 # --- 1. 系統配置與字體設定 (解決中文亂碼問題) ---

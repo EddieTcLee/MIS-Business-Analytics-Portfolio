@@ -9,6 +9,7 @@ import time
 # [安裝與執行教學]
 # 1. 確保已安裝套件: pip install streamlit pandas matplotlib
 # 2. 在終端機(Terminal)執行: streamlit run ecommerce_price_dashboard.py
+# python -m streamlit run ecommerce_price_dashboard.py
 # ---------------------------------------------------------
 
 # --- 設定頁面配置 ---

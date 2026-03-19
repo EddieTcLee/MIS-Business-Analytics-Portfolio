@@ -18,17 +18,16 @@ import platform
 st.set_page_config(page_title="社群輿情與情感分析系統", layout="wide")
 
 def get_chinese_font():
-    """偵測系統中的計算中文字體路徑 (針對 Windows 優化)"""
-    system = platform.system()
-    if system == "Windows":
-        # 微軟正黑體
-        font_path = "C:/Windows/Fonts/msjh.ttc"
-        if os.path.exists(font_path):
-            return font_path
-        return "C:/Windows/Fonts/simhei.ttf" # 備用
-    elif system == "Darwin": # Mac
-        return "/System/Library/Fonts/PingFang.ttc"
-    return None # Linux 或其他
+    """優先使用專案目錄下的字體檔 (解決 Streamlit 雲端亂碼問題)"""
+    # 這是你剛剛上傳到 GitHub 的字體檔名
+    font_path = "NotoSansTC-Regular.ttf" 
+    
+    # 檢查檔案是否存在
+    if os.path.exists(font_path):
+        return font_path
+    else:
+        st.error(f"⚠️ 找不到字體檔案：{font_path}。請確認字體檔是否已成功推送到 GitHub 且檔名正確！")
+        return None
 
 CHINESE_FONT_PATH = get_chinese_font()
 
